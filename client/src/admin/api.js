@@ -1,4 +1,4 @@
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:4000';
+const API = import.meta.env.VITE_API_BASE || 'https://gumtree-backend-u7q8.onrender.com';
 
 export const setToken = (t) => localStorage.setItem('gumtree_token', t);
 export const getToken = () => localStorage.getItem('gumtree_token') || '';
