@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { login } from './api';
+import { login } from 'https://gumtree-backend-u7q8.onrender.com';
 
 export default function AdminLogin({ onSuccess }) {
   const [username, setU] = useState('gumtreeply');
