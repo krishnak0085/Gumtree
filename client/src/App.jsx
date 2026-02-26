@@ -316,7 +316,7 @@ const Contact = () => {
     e.preventDefault();
     setError('');
     try {
-      const res = await fetch('/https://gumtree-backend-u7q8.onrender.com/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form) });
+      const res = await fetch('https://gumtree-backend-u7q8.onrender.com/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form) });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Failed');
       setSent(true);
