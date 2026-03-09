@@ -477,9 +477,12 @@ Quantity: ${quote.qty} sheets`;
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-          <Route path="/admin/login" element={<AdminLogin onSuccess={() => window.location.assign('/admin/dashboard')} />} />
-<Route path="/admin/dashboard" element={<AdminDashboard />} />
-<Route path="/products" element={<Products />} />
+ <Route path="/secure-gumtree-admin-portal-7821"
+    element={<AdminLogin onSuccess={() => window.location.assign('/admin/dashboard')} />}
+  /><Route
+  path="/admin/dashboard"
+  element={localStorage.getItem("gumtree_token") ? <AdminDashboard /> : <AdminLogin />}
+/><Route path="/products" element={<Products />} />
 <Route path="/products/:category" element={<PlywoodVarieties />} />
 
           </Routes>
