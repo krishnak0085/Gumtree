@@ -492,7 +492,7 @@ Quantity: ${quote.qty} sheets`;
 
 
 {/* ---- Floating Call & WhatsApp Buttons ---- */}
-<div className="fixed bottom-20 right-4 flex flex-col gap-3 z-50">
+<div className="fixed bottom-32 right-4 flex flex-col gap-3 z-50">
   <a href="tel:+918053031325" className="bg-green-700 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-800 transition flex items-center gap-2">
     📞 Call
   </a>
