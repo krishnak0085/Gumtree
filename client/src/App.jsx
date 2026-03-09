@@ -12,6 +12,15 @@ const Container = ({ children }) => (
   <div className="max-w-6xl mx-auto px-4">{children}</div>
 );
 
+
+
+//for awaking//
+useEffect(() => {
+  fetch("https://gumtree-backend-u7q8.onrender.com/ping");
+}, []);
+//
+
+
 const Badge = ({ children }) => (
   <span className="inline-flex items-center rounded-full border px-3 py-1 text-sm">
     {children}
