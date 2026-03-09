@@ -419,8 +419,11 @@ const ChatWidget = () => {
     setMsgs(m => [...m, { role: 'user', text }]);
     setInput('');
     try {
-      const res = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ sessionId, text }) });
-      const data = await res.json();
+const res = await fetch('https://gumtree-backend-u7q8.onrender.com/api/chat', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ sessionId, text })
+});      const data = await res.json();
       setMsgs(m => [...m, { role: 'bot', text: data.reply || 'OK' }]);
     } catch {
       setMsgs(m => [...m, { role: 'bot', text: 'Network issue. Please call us for instant support.' }]);
