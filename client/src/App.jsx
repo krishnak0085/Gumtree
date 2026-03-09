@@ -14,11 +14,7 @@ const Container = ({ children }) => (
 
 
 
-//for awaking//
-useEffect(() => {
-  fetch("https://gumtree-backend-u7q8.onrender.com/ping");
-}, []);
-//
+
 
 
 const Badge = ({ children }) => (
