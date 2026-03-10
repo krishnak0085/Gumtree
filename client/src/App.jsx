@@ -369,11 +369,13 @@ const Contact = () => {
           </form>
         </div>
         <div>
-<iframe
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.5745050001506!2d77.34996537534893!3d30.143064274874135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390efb4bc350a307%3A0x13210dbcf7f4ffd0!2sGumtree%20Plywood%20ind.!5e1!3m2!1sen!2sin!4v1773129954989!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          {/* <iframe
   src="https://maps.app.goo.gl/37wMoTB7Feo8bVmLA"
   className="w-full h-64 rounded-2xl border"
   loading="lazy">
-</iframe>          <div className="mt-4 text-sm text-gray-700">Address: Jagadhri, Yamunanagar, Haryana • Phone: +91-8053031325 • Email: gumtree.plywoods@gmail.com</div>
+</iframe>          <div className="mt-4 text-sm text-gray-700">Address: Jagadhri, Yamunanagar, Haryana • Phone: +91-8053031325 • Email: gumtree.plywoods@gmail.com</div> */}
         </div>
       </div>
 
