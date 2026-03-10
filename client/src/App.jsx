@@ -369,8 +369,11 @@ const Contact = () => {
           </form>
         </div>
         <div>
-          <div className="h-64 rounded-2xl bg-gray-100 grid place-items-center text-gray-500">Map / Factory Photo</div>
-          <div className="mt-4 text-sm text-gray-700">Address: Jagadhri, Yamunanagar, Haryana • Phone: +91-XXXXXXXXXX • Email: sales@gumtreeplywood.com</div>
+<iframe
+  src="https://maps.app.goo.gl/37wMoTB7Feo8bVmLA"
+  className="w-full h-64 rounded-2xl border"
+  loading="lazy">
+</iframe>          <div className="mt-4 text-sm text-gray-700">Address: Jagadhri, Yamunanagar, Haryana • Phone: +91-8053031325 • Email: gumtree.plywoods@gmail.com</div>
         </div>
       </div>
 
